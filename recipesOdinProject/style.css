@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3vw;
+    background-color: #F4F0BB;
+    text-transform: capitalize;
+    background-image: url(/Images/background.jpg);
+    background-position: top;
+}
+
+.header {
+    background-color: #DA2C38;
+    color: white;
+    text-align: center;
+    text-decoration: underline solid black 2px;
+}
+
+.navbar {
+
+    background-color: #c6d8d3cb;
+    margin: 2rem 20vw;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+
+li {
+    list-style-type: none;
+    line-height: 8rem;
+    border: solid black 1px;
+}
+
+
+li:nth-child(1) {
+    border-radius: 2rem 2rem 0 0;
+}
+
+li:nth-child(4) {
+    border-radius: 0 0 2rem 2rem;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+a:hover {
+    background-color: #DA2C38;
+    color: white;
+
+}
+
+li:nth-child(1) a {
+    border-radius: 2rem 2rem 0 0;
+}
+
+li:nth-child(4) a {
+    border-radius: 0 0 2rem 2rem;
+}
